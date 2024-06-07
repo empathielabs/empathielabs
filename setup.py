@@ -33,6 +33,7 @@ setup(
         "torchvision>=0.11.1",
         "transformers>=4.30.0",
         "tqdm>=4.60.0",
+        "vllm>=0.4.3"
     ],
     packages=find_packages(include=['empathielabs', 'empathielabs.*']),
     entry_points={
